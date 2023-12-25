@@ -30,38 +30,37 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1LltnrCCqMnHDzVtn6YymJwqBB21TyCGJ/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'C++',
+    'Python',
     'JavaScript',
-    'React.js',
+    'Scala',
+    'Spark',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Kibana'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Rydot Infotech Pvt. Ltd',
+      position: 'Junior Software Engineer',
+      from: 'September 2022',
+      to: 'June 2023',
+      companyLink: 'https://www.rydotinfotech.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Softvan Technologies Pvt Ltd',
+      position: 'Java Developer Intern',
+      from: 'Dec 2021',
+      to: 'May 2022',
+      companyLink: 'https://softvan.in/',
     },
   ],
   /* certifications: [
@@ -74,25 +73,25 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Carleton University',
+      degree: 'Masters of Software Engineering',
+      from: 'September 2023',
+      to: 'April 2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Gandhinagar Institute of Technology',
+      degree: 'Bachelors of Computer Engineering',
+      from: 'June 2018',
+      to: 'June 2022',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Storage Manager',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Developed a storage management system called Storage Manager, reducing data storage costs by 20% by utilizing Amazon S3 efficient storage infrastructure. The system provides secure cloud data storage, encryption of cloud data, keeping control of your data, controlling your file activity and versioning, and protecting files by two-factor authentication, increasing data security by 30% by implementing encryption of cloud data and two-factor authentication. Enhanced system performance by 15% by optimizing code and utilizing efficient data structures. Implemented using Waterfall process model, streamlining the development process by 25% by following the Waterfall process model.',
       imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://example.com',
     },
