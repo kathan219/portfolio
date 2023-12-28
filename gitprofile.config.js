@@ -6,7 +6,7 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -92,25 +92,24 @@ const config = {
       title: 'Storage Manager',
       description:
         'Developed a storage management system called Storage Manager, reducing data storage costs by 20% by utilizing Amazon S3 efficient storage infrastructure. The system provides secure cloud data storage, encryption of cloud data, keeping control of your data, controlling your file activity and versioning, and protecting files by two-factor authentication, increasing data security by 30% by implementing encryption of cloud data and two-factor authentication. Enhanced system performance by 15% by optimizing code and utilizing efficient data structures. Implemented using Waterfall process model, streamlining the development process by 25% by following the Waterfall process model.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      imageUrl: 'https://drive.google.com/file/d/1J66H5foZmeeJvD_LRK9IO3gj3Y6Dxja_/view?usp=drive_link',
     },
     {
-      title: 'Project Name',
+      title: 'Conversation Intelligence to Automate Booking',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Reduced flight booking time by 15% by implementing a voice-based assistant that streamlines the booking process and provides personalized recommendations. Increased user engagement by 20% by introducing a voice-based interface that offers a more intuitive and engaging experience for booking flights. Reduced development time by 25% by utilizing Java Spring Boot Framework, Spring Security, HTML/CSS, and AWS Lambda, enabling rapid development and deployment of new features. Enhanced system scalability by 30% by leveraging Amazon RDS and AWS Lambda, ensuring seamless handling of increased user traffic and data volume.',
+      imageUrl: 'https://drive.google.com/file/d/1iTH7ZLqRGe-5UcqtdRqKjZGnb1pgSlG8/view?usp=sharing',
+      link: 'https://github.com/kathan219/FlightBooking',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    // source: 'dev', // medium | dev
+    // username: 'arifszn', // to hide blog section, keep it empty
+    // limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-E15Z03STVT', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
